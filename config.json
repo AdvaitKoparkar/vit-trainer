@@ -1,0 +1,17 @@
+{
+    "data": "./data",
+    "n_layers": 5,
+    "dim": 128,
+    "hidden_size": 64,
+    "img_dim": [1, 32, 32],
+    "patch_size": 8,
+    "n_head": 8,
+    "wavelength": 1000,
+    "dropout": 0.5,
+    "n_classes": 10,
+    "num_epochs": 1000,
+    "batch_size": 32,
+    "lr": 1e-3,
+    "save_every": 5,
+    "save_path": "./checkpoint.pt"
+}
